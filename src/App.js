@@ -15,7 +15,7 @@ function App() {
   return (
       <div className="wrapper"> 
         <header>
-            <div className="scroll">
+            <div data-aos="fade-up" className="scroll">
               <div className="long">
                 <h3>SCROLL!</h3>
                 <div className="div"></div>
@@ -101,8 +101,21 @@ function App() {
                 Google
               </div>
             </div>
+            <h2>EDUCATION</h2>
             <div className="edu">
-              
+              <ul> 
+                <li>
+                  <h3>JU Srednjoskolski centar „Nedžad Ibrišimović"</h3>
+                  <h5>2018 - 2022</h5>
+                  <h3>IT Gymnasium</h3>
+                </li>
+                <li>
+                  <h3>Univerza v Ljubljani</h3>
+                  <h5>2022 - </h5 >
+                  <h3>Faculty of Computer and Information Science</h3>
+                  <h3>BVS Computer and Information Science</h3>
+                </li>              
+              </ul>
             </div>
           </div>
         </div>

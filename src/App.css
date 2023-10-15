@@ -126,7 +126,7 @@ body{
 }
 
 section{
-  top: 150rem;
+  top: 120rem;
   width: 100%;
   height: 21rem;
   position: absolute;
@@ -258,25 +258,43 @@ p{
   display: none;
 }
 .cv{
-  top: 55rem;
+  top: 60rem;
   width: 100%;
   height: 80rem;
   display: flex;
   position: absolute;
 }
 .left{
-  background-color: red;
+  border-top: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid transparent;
   width: 40rem;
-  height: 80rem;
+  height: 50rem;
   text-align: center;
   align-content: center;
   justify-content: center;
   align-items: center;
 }
+.left:hover{
+  border-top: 4px solid white;
+  border-right: 4px solid white;
+  border-bottom: 4px solid white;
+}
+.right:hover{
+  border-top: 4px solid white;
+  border-left: 4px solid white;
+  border-bottom: 4px solid white;
+}
+.cv :hover{
+  backdrop-filter: blur(20px);
+
+}
 .right{
-  background-color: blue;
+  border-top: 4px solid transparent;
+  border-left: 4px solid transparent;
+  border-bottom: 4px solid transparent;
   width: 40rem;
-  height: 80rem;
+  height: 50rem;
 }
 .bio-wrap{
   width: 100%;
@@ -325,5 +343,13 @@ p{
 }
 .btn-skills:hover {
   background-color: rgb(187, 186, 186);
+}
+.edu{
+  width: 100%;
+  height: 20rem;
+  padding-left: 1rem;
 
+}
+.edu h5,h3{
+  margin-top: 1px;
 }
