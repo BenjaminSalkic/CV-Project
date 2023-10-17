@@ -1,0 +1,28 @@
+.dualpic{
+    background-color: white;
+    width: 100vw;
+    height: 20rem;
+    display: flex;
+}
+.backg-l, .backg-r{
+    filter: grayscale();
+    width: 50vw;
+    height: 20rem;
+    z-index: -1;
+    
+}
+.backg-r:hover{
+    filter: none;
+    transition: 1s;
+}
+.backg-l:hover{
+    filter: none;
+    transition: 1s;
+}
+.right-img{
+   
+}
+
+.left-img{
+
+}

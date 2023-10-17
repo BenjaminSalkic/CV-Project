@@ -2,6 +2,8 @@ import './index.css';
 import React, { useEffect }  from 'react';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
+import Navbar from "../../components/navbar";
+
 
 import Scroll from '../../assets/img/scroll-gif.gif'
 import Contact from '../../components/contact';
@@ -12,6 +14,7 @@ function Parallax() {
   }, [])
   return (
       <div className="wrapper"> 
+        <Navbar />
         <header>
             <div data-aos="fade-up" className="scroll">
               <div className="long">
@@ -117,7 +120,6 @@ function Parallax() {
             </div>
           </div>
         </div>
-      //Contact
       <Contact />
       </div>
   );
